@@ -1,0 +1,179 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    background-color: #0e0e0e;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    background-color: #111;
+    padding: 20px;
+    position: fixed;
+    width: 98%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 160px 0;
+    background-image: url(kul7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 30px;
+    height: 400px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 4em;
+    color: #fff;
+    margin: 0;
+}
+
+.hero-content span {
+    color: #715aff;
+}
+
+.hero-content p {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #715aff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+button {
+    width: 80px;
+    height: 40px;
+    border: 1px solid deepskyblue;
+    border-radius: 20px;
+}
+.about {
+    display: flex;
+    padding: 60px 200px;
+    align-items: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-content img {
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+.about-text {
+    max-width: 50%;
+    padding: 20px;
+}
+
+.about-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-bottom: 10px;
+}
+.services{
+    padding: 60px 180px;
+    text-align: center;
+}
+.services h2{
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+.services-grid{
+    display: flex;
+    justify-content: space-around;
+}
+.service{
+    background-color: #1a1a1a;
+    padding: 20px;
+    margin:10px ;
+    width: 30%;
+    border-radius: 10px;
+}
+.service h3 {
+    margin-bottom: 15px;
+    color: #715aff;
+}
+
+footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+.services-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.service {
+    text-align: center;
+    width: 30%; 
+}
+
+.icon {
+    font-size: 40px; 
+    margin-bottom: 10px;
+    color: #eee7e7; 
+}
+
+.service h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .services-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .service {
+        width: 100%; 
+    }
+}
